@@ -12,7 +12,7 @@ class ApiService {
   // For emulator: use 10.0.2.2
   // For real device: use your PC's IP in local network
   // Current IP: 192.168.8.58 (Wi-Fi)
-  static const String baseUrl = 'http://192.168.8.58:3000';
+  static const String baseUrl = 'http://10.10.5.10:3000';
   static const Duration _timeout = Duration(seconds: 30);
 
   static String _errorMessage(http.Response response, String fallback) {
